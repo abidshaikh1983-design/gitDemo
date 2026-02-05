@@ -45,7 +45,7 @@ public class Basic {
 		
 		JsonPath JS1 = Reuseable.rowToJson(getPlace);
 		String Address = JS1.getString("address");
-		System.out.println(Address);
+		System.out.println("New Updated Address is "+Address);
 		Assert.assertEquals(newAdd, Address);
 		
 
