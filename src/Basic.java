@@ -26,7 +26,7 @@ public class Basic {
 		JsonPath JsPath = Reuseable.rowToJson(addedPlace);
 		String place_id = JsPath.getString("place_id");
 		
-		System.out.println(place_id);
+		System.out.println("placeID is " + place_id);
 		
 		String newAdd = "70 winter walk, France";
 		
