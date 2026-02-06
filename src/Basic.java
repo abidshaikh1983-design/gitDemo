@@ -47,7 +47,8 @@ public class Basic {
 		String Address = JS1.getString("address");
 		System.out.println("New Updated Address is "+Address);
 		Assert.assertEquals(newAdd, Address);
-		
+		String phone_number = JS1.getString("phone_number");
+		System.out.println(phone_number);
 
 	}
 
